@@ -14,5 +14,5 @@ jobs:
         needs: checke working directory
         steps:
             - name: desplay variables
-               run: echo $GITHUB_REPOSITORY
+              run: echo $GITHUB_REPOSITORY
                
