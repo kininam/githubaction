@@ -1,8 +1,9 @@
 name: checkout
 on: [push]
 jobs:
-    runs-on: ubuntu-latest
-    steps:
+    test-job:
+      runs-on: ubuntu-latest
+      steps:
         - name: ls
           run: ls
         - uses: action/checkout@v3
