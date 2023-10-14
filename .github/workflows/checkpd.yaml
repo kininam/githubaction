@@ -1,7 +1,7 @@
 name: checking working directory
 on : [push]
 jobs:
-    checke working directory:
+    checke_working_directory:
         runs-on: ubuntu-latest
         steps:
             - name: test
@@ -9,9 +9,9 @@ jobs:
                  pwd
                  ls -l
                  echo "::warning:: this is warning message"
-    display variables:
+    display_variables:
         runs-on: ubuntu-latest
-        needs: checke working directory
+        needs: checke_working_directory
         steps:
             - name: desplay variables
               run: echo $GITHUB_REPOSITORY
