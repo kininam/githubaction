@@ -6,6 +6,6 @@ jobs:
       steps:
         - name: ls
           run: ls
-        - uses: action/checkout@v3
+        - uses: actions/checkout@v3
         - name: ls2
           run: ls
