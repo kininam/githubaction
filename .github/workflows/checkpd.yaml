@@ -1,5 +1,5 @@
 name: checking working directory
-on :[push]
+on : [push]
 jobs:
     checke working directory:
         runs-on: ubuntu-latest
