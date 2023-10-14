@@ -1,0 +1,10 @@
+name: checkout
+on: [push]
+jobs:
+    runs-on: ubuntu-latest
+    steps:
+        - name: ls
+          run: ls
+        - uses: action/checkout@v3
+        - name: ls2
+          run: ls
