@@ -1,0 +1,9 @@
+name: one_more_test
+on: [push]
+jobs:
+    one_more_test:
+        runs-on: ubuntu-latest
+        steps:
+            - run: |
+                 echo "1"
+                 echo "2"
