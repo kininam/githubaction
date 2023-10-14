@@ -2,6 +2,6 @@ name: test
 on: [push]
 jobs:
   test_job:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "test job"
