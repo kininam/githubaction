@@ -2,6 +2,6 @@ name: first workflow
 on: [push]
 jobs:
   first_work_flow:
-  runs-on: ubuntu-latest
-  steps:
-    - run: echo "first workflow"
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "first workflow"
